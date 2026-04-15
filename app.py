@@ -23,8 +23,9 @@ async def main():
     echo,
     host="",
     port="8080",
-    process_request=health_check):
-      await stop
+    process_request=health_check,
+  ):
+    await stop
 
 
 if __name__ == "__main__":
